@@ -9,10 +9,10 @@ function App() {
     setUsersList(prevUsersList => [...prevUsersList, newUser])
   }
   return (
-    <div>
+    <>
       <AddUser addUser = {addUser} />
       <UsersList users={usersList}/>
-    </div>
+    </>
   );
 }
 
